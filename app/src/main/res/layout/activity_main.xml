@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:stretchColumns="*"
+             tools:context="org.jbuilder.chariot.MainActivity">
+
+    <TableRow>
+        <Button
+                android:layout_width="1dip"
+                android:layout_height="wrap_content"
+                android:text="使用pager浏览图片"
+                android:textSize="10dip"
+                android:id="@+id/button1" />
+
+        <Button
+                android:layout_width="1dip"
+                android:layout_height="wrap_content"
+                android:text="使用Fragment浏览图片"
+                android:textSize="10dip"
+                android:id="@+id/button2" />
+    </TableRow>
+    <TableRow>
+        <Button
+                android:layout_width="1dip"
+                android:layout_height="wrap_content"
+                android:text="ListView+ViewPager"
+                android:textSize="10dip"
+                android:id="@+id/button3" />
+        <Button
+                android:layout_width="1dip"
+                android:layout_height="wrap_content"
+                android:text="Intent传递复杂对象"
+                android:textSize="10dip"
+                android:id="@+id/button4" />
+    </TableRow>
+    <TableRow>
+
+        <Button
+                android:layout_width="1dip"
+                android:layout_height="wrap_content"
+                android:text="ImageView的基本操作"
+                android:textSize="10dip"
+                android:id="@+id/button5" />
+
+        <Button
+                android:layout_width="1dip"
+                android:layout_height="wrap_content"
+                android:text="TextView的基本操作"
+                android:textSize="10dip"
+                android:id="@+id/button6" />
+    </TableRow>
+
+    <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <Button
+                android:layout_width="1dip"
+                android:layout_height="wrap_content"
+                android:text="使用Service下载图片"
+                android:textSize="10dip"
+                android:id="@+id/button7" />
+
+        <Button
+                android:layout_width="1dip"
+                android:layout_height="wrap_content"
+                android:text="传递数据"
+                android:textSize="10dip"
+                android:id="@+id/button8" />
+    </TableRow>
+
+    <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <Button
+                android:text="使用Intent"
+                android:id="@+id/button9"
+                android:textSize="10dip"
+                android:layout_column="0" />
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="存储sdcard"
+                android:id="@+id/button10"
+                android:textSize="10dip"
+                android:layout_column="1" />
+    </TableRow>
+</TableLayout>
